@@ -132,7 +132,7 @@ class _SearchBar extends StatelessWidget {
           ),
           const SizedBox(height: 8),
           DropdownButtonFormField<String>(
-            value: position,
+            initialValue: position,
             items: positions
                 .map(
                   (p) => DropdownMenuItem(
